@@ -1,0 +1,34 @@
+BSNL Telephone Database Management System 
+
+Purpose :
+The goal of our project is to develop a telephone database similar to what BSNL uses for maintaining it's client's databases.
+Maintaining the clients data is the main task of any telephone database management system ; for maintaining the data we have used SQL Database storage system . 
+In real world BSNL is utilising TCS as it's partner for carrying out these data management tasks .
+
+"An innovative solution was delivered by Tata Consultancy Services 
+(TCS) through its data center monitoring and remote tracking 
+framework. The solution enabled integrated visibility of the data 
+center, helping BSNL to maintain 99.9 percent system availability. "
+
+" Bharat Sanchar Nigam Limited (BSNL), a leading Indian 
+communication service provider, has one of the largest and most 
+complex data centers supporting fixed line and broadband 
+businesses in the country. While performance and high availability 
+are top priorities for the BSNL data center team, the challenge is to 
+maintain high system availability and a real-time integrated view 
+of the data center. "
+
+Hence , we are preparing databases for three connections : 
+ 1. Landline
+ 2.Internet(Broadband)
+ 3. Mobile(Cellular)
+Now these 3 connections are provided to a customer , that customer is given a permanent CId . 
+This CId is an unique primary key which is utilised in all databases .
+*Description of some other attributes*
+Considering the case of Broadband connection , it is provided only in case of the customer owning a landline connection .
+
+
+
+
+ 
+
